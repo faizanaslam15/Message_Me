@@ -8,5 +8,24 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
- /* @import 'custom'; */
-@import 'stylesheets/custom.css.scss'
+  @import 'custom'; 
+ /*
+ *= require custom
+ */
+
+/* @import 'stylesheets/custom.css.scss' */
+@import "semantic-ui";
+
+.chatbox {
+    height: 450px;
+}
+
+
+
+
+
+
+
+
+
+
