@@ -25,6 +25,9 @@ gem "bcrypt", "~> 3.1.7"
 group :development do
   gem 'hirb'
 end
+group :development, :test do
+  gem 'byebug'
+end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
